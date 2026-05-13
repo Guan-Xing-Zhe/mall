@@ -87,3 +87,25 @@ docker-compose up -d
 
 > ⭐ 如果这个项目对你有帮助，欢迎 Star 支持！
 > 本仓库仅用于学习研究，请尊重原项目 License。
+---
+
+## ✨ 我的二次开发
+
+### 1. 促销日期计算器 (DateCalculatorController)
+
+电商业务中经常需要计算促销周期、工作日和剩余时间。新增了一套日期计算工具接口：
+
+| 接口 | 说明 | 示例 |
+|------|------|------|
+| GET /dateCalc/workdays | 计算两个日期之间的工作日天数 | 用于物流发货周期估算 |
+| GET /dateCalc/promotion-remaining | 计算促销剩余时间 | 倒计时展示 |
+| GET /dateCalc/marketing-calendar | 获取当前营销日历 | 季度/月份信息 |
+
+> 代码位置: mall-demo/src/main/java/com/macro/mall/demo/controller/DateCalculatorController.java
+> 配套测试: mall-demo/src/test/java/com/macro/mall/demo/service/impl/DateCalculatorServiceImplTest.java
+
+### 2. SystemDiagnosisController (ruoyi-vue-pro)
+
+JVM 运行时监控接口，实时查看堆内存、线程状态、系统负载等信息。支持 Spring Security 权限控制，仅管理员可访问。
+
+> 代码位置: yudao-module-system/.../controller/admin/logger/SystemDiagnosisController.java
