@@ -36,7 +36,7 @@ mall
 - [x] 分布式事务（RocketMQ 事务消息）
 \n\\n---
 \n\\n## 🚀 快速部署
-\n\\n`\ash
+\n\\n`\ash
 # 1. 克隆项目
 git clone https://github.com/Guan-Xing-Zhe/mall.git
 \n\\n# 2. Docker 一键部署（推荐）
