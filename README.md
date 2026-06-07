@@ -51,7 +51,7 @@ mall 是一套电商全栈项目，基于 Spring Boot + MyBatis 实现，采用 
 
 ## 快速部署
 
-\\ash
+\\ash
 # 1. 克隆项目
 git clone https://github.com/Guan-Xing-Zhe/mall.git
 
